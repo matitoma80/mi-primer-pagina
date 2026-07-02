@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Roboto", sans-serif*/
+
+/* Variables */
+:root {
+    --primary-color: #F4E3B2;
+    --secondary-color: #F0D994;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Roboto", sans-serif;
+    background: var(--secondary-color);
+}
+
+/* Header */
+header {
+    background: var(--primary-color);
+    color: #ECA009;
+    padding: 3rem;
+
+}
+
+.header {
+    padding: 2rem;
+}
+
+section{
+    background-color: var(--secondary-color);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+/* Tipografía */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55;
+
+}
+
+.footer{
+    font-size: 0.5rem;
+    padding: 1rem;
+}
