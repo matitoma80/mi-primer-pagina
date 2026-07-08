@@ -3,33 +3,32 @@
 
 /* Variables */
 :root {
-    --primary-color: #F4E3B2;
-    --secondary-color: #F0D994;
+    --primary-color: #362417;
+    --secondary-color: #47301F;
+    --bg-light: #F1DABF;
 }
 
 /* Estilos generales */
 body {
     font-family: "Roboto", sans-serif;
-    background: var(--secondary-color);
+    color: var(--secondary-color);
+    background: var(--bg-light);
 }
 
 /* Header */
 header {
-    background: var(--primary-color);
-    color: #ECA009;
+    background: var(--bg-light);
+    color: var(--primary-color);
     padding: 3rem;
 
 }
 
-.header {
-    padding: 2rem;
-}
-
-section{
+section {
     background-color: var(--secondary-color);
     margin: 1rem;
     padding: 1rem;
 }
+
 
 /* Tipografía */
 h1 {
@@ -44,7 +43,7 @@ p {
 
 }
 
-.footer{
+footer {
     font-size: 0.5rem;
     padding: 1rem;
 }
