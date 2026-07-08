@@ -2,6 +2,12 @@
 /*font-family: "Roboto", sans-serif*/
 
 /* Variables */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --primary-color: #362417;
     --secondary-color: #47301F;
@@ -20,7 +26,6 @@ header {
     background: var(--bg-light);
     color: var(--primary-color);
     padding: 3rem;
-
 }
 
 section {
