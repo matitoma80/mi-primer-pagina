@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/*font-family: "Roboto", sans-serif*/
+
+/* Variables */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #47301F;
+    background: #F1DABF;
+}
+
+/* Header */
+header {
+    background: #F1DABF;
+    color: #362417;
+    padding: 30px 40px;
+    border-bottom: 2px solid #362417;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+
+.biografia {
+    background: #362417;
+    color: #F1DABF;
+}
+
+/* estilos Navbar */
+nav {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: #362417;
+}
+
+/* Imagenes de los proyectos*/
+.imagenes-proyectos{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+/* Tipografía */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.55;
+
+}
+
+footer {
+    font-size: 0.5rem;
+    padding: 1rem;
+}
